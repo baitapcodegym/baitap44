@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function isPalindrome</title>
+</head>
+<body onload="isPalindrome()">
+    <script>
+        function isPalindrome(){
+            let str = prompt('nhap str')
+            if (str == str.split('').reverse().join('')){
+                document.write('day la palindrome');
+            }else {
+                document.write('day khong phai la dalindrome');
+            }
+        }
+    </script>
+</body>
+</html>
